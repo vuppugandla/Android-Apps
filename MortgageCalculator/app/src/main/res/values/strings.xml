@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MortgageCalculator</string>
+    <string name="action_settings">Settings</string>
+    <string name="showByYear">Show By Year</string>
+    <string name="showByMonth">Show By Month</string>
+    <string name="noAmortization">don\'t show</string>
+    <string name="calculateButton">Calculate</string>
+    <string name="title_activity_results">ResultsActivity</string>
+
+</resources>

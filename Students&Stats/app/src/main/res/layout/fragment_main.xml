@@ -1,0 +1,182 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".MainActivityFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:orientation="horizontal"
+        android:id="@+id/linear1">
+        <TextView
+            android:layout_height="match_parent"
+            android:layout_width="wrap_content"
+            android:id="@+id/studentIdText"
+            android:layout_gravity="bottom"
+            android:text="@string/student_id_text"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:padding="3dp"/>
+        <EditText
+            android:id="@+id/studentIdTextView"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_gravity="bottom"
+            android:padding="3dp"
+            android:hint="Student ID" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/scores"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linear1"
+        android:text="@string/scores"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:padding="10dp"
+        android:gravity="center"
+        android:layout_span="1" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/scores"
+        android:id="@+id/scoresTable">
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="3dp">
+
+            <TextView
+                android:id="@+id/q1Text"
+                android:layout_column="0"
+                android:layout_gravity="bottom"
+                android:text="@string/q1_text"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:paddingLeft="75dp"/>
+            <EditText
+                android:id="@+id/q1TextView"
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:padding="3dp"
+                android:layout_column="2"
+                android:hint="Q1 Score" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="3dp">
+            <TextView
+                android:id="@+id/q2Text"
+                android:layout_column="0"
+                android:layout_gravity="bottom"
+                android:text="@string/q2_text"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:paddingLeft="75dp"/>
+            <EditText
+                android:id="@+id/q2TextView"
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:padding="3dp"
+                android:layout_column="2"
+                android:hint="Q2 Score"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="3dp">
+            <TextView
+                android:id="@+id/q3Text"
+                android:layout_column="0"
+                android:layout_gravity="bottom"
+                android:text="@string/q3_text"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:paddingLeft="75dp"/>
+            <EditText
+                android:id="@+id/q3TextView"
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:padding="3dp"
+                android:layout_column="2"
+                android:hint="Q3 Score"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="3dp">
+            <TextView
+                android:id="@+id/q4Text"
+                android:layout_column="0"
+                android:layout_gravity="bottom"
+                android:text="@string/q4_text"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:paddingLeft="75dp"/>
+            <EditText
+                android:id="@+id/q4TextView"
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:padding="3dp"
+                android:layout_column="2"
+                android:hint="Q4 Score"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="3dp">
+            <TextView
+                android:id="@+id/q5Text"
+                android:layout_column="0"
+                android:layout_gravity="bottom"
+                android:text="@string/q5_text"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:paddingLeft="75dp"/>
+            <EditText
+                android:id="@+id/q5TextView"
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:padding="3dp"
+                android:layout_column="2"
+                android:hint="Q5 Score"/>
+        </TableRow>
+
+    </TableLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/add_button"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/textWhite"
+        android:layout_below="@+id/scoresTable"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/addButton"/>
+    <Button
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Analysis"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/textWhite"
+        android:layout_below="@+id/addButton"
+        android:layout_alignLeft="@+id/addButton"
+        android:layout_alignStart="@+id/addButton"
+        android:layout_marginTop="20dp" />
+
+</RelativeLayout>
+

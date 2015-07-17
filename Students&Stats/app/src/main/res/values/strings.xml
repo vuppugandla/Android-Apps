@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Students &amp; Stats</string>
+    <string name="action_settings">Settings</string>
+    <string name="student_id_text">Student ID</string>
+    <string name="scores">Scores</string>
+    <string name="q1_text">Q1</string>
+    <string name="q2_text">Q2</string>
+    <string name="q3_text">Q3</string>
+    <string name="q4_text">Q4</string>
+    <string name="q5_text">Q5</string>
+    <string name="title_add_details">AddDetailsActivity</string>
+    <string name="add_button">ADD</string>
+</resources>
