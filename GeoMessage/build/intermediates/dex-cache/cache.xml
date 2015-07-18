@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="F:\github_repository\Android_Apps\GeoMessage\app\build\intermediates\exploded-aar\com.android.support\design\22.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="fc63b820d54c8a27a3a614bdd93920e0076581c2">
+        <dex dex="F:\github_repository\Android_Apps\GeoMessage\app\build\intermediates\pre-dexed\debug\classes-bba2851f32b3fec029b43ef0c16a720af5bf620f.jar" />
+    </item>
+    <item
+        jar="F:\github_repository\Android_Apps\GeoMessage\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
+        <dex dex="F:\github_repository\Android_Apps\GeoMessage\app\build\intermediates\pre-dexed\debug\classes-a3d0d17963a7d318d82f206618fbb267dc1e63c8.jar" />
+    </item>
+    <item
+        jar="F:\Android SDK\extras\android\m2repository\com\android\support\support-annotations\22.2.0\support-annotations-22.2.0.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
+        <dex dex="F:\github_repository\Android_Apps\GeoMessage\app\build\intermediates\pre-dexed\debug\support-annotations-22.2.0-19dc2bb33821ef47d90300c8bd6fa5e7e201ffc1.jar" />
+    </item>
+    <item
+        jar="F:\github_repository\Android_Apps\GeoMessage\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="F:\github_repository\Android_Apps\GeoMessage\app\build\intermediates\pre-dexed\debug\classes-caeb8d44699f90cfed5e223a3ac07c0d4a528ee4.jar" />
+    </item>
+    <item
+        jar="F:\github_repository\Android_Apps\GeoMessage\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\libs\internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="F:\github_repository\Android_Apps\GeoMessage\app\build\intermediates\pre-dexed\debug\internal_impl-22.2.0-34c90fe4745920bee5502af7ccb8b0153a7381ba.jar" />
+    </item>
+
+</items>
