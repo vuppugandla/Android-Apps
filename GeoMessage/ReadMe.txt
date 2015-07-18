@@ -1,0 +1,1 @@
+GeoMessage is a simple Android App which has only one floating action button. Upon click it collects the geo location of the user and display the latitude, longitude and address of that particular geo location. It also sends the geo location to a designated mobile number (Currently hardcoded—can be found in res/values/strings.xml). 
